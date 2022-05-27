@@ -1,0 +1,2 @@
+fixer creat en la branca mmain igual al que esta a la branca develop
+Arxiu en la branca develop fet

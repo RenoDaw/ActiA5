@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P1.7 Formu</title>
+</head>
+<body>
+    <h3>Les nostres Pizzes</h3>
+    <form action="dopost.php" method="post">
+        <br/>
+        <label for = "clpizze"> Les Nostres classe de Pizzes son: </label>
+        <select id = "clpizze" name = "clpizze">
+            <option value = "" selected = "selected">- tria una opció -</option>
+            <option value = "Americana">Americana</option>
+            <option value = "Carbonara">Carbonara</option>
+            <option value = "Ruspante">Ruspante</option>
+            <option value = "Margherita">Margherita</option>
+            <option value = "Vesuvio">Sucre</option>
+            <option value = "Regina">Sense sucre</option>
+            <option value = "Diavola">Ratafia</option>
+            <option value = "Tropicale">Soberano</option>
+
+
+        </select>
+       <br/>
+
+
+
+
+        <!-- <input type = "hidden" name = "codi_identificador" value = "X16345P09" />
+        Escriu el teu nom:
+        <input type = "text" name = "snom" value = "" />
+        <br/>
+        Entra número afiliació:
+        <input type = "text" name = "idafiliacio" value =""/>
+        <br/>
+        Entra una paraula de pas:
+        <input type = "password" name = "password" value = "" /> -->
+        <br/>
+        <!-- Entra sexe:
+        <input type = "radio" name = "sex" value = "M" /> --> <!-- checked = "checked" --> <!--
+        Home
+        <input type = "radio" name = "sex" value = "F" /> 
+        Dona --> 
+        <br/>
+        Ingrediets de la pizza demanda:
+        <input type = "checkbox" name = "ingre_add" value = "Massa" checked = "checked" />
+        Massa
+        <input type = "checkbox" name = "ingre_add" value = "Orenga" /> 
+        Orenga
+        <input type = "checkbox" name = "ingre_add" value = "Formatge" /> 
+        Formatge
+        <input type = "checkbox" name = "ingre_add" value = "Tomaquet" /> 
+        Tomàquet
+        <input type = "checkbox" name = "ingre_add" value = "Pernil" /> 
+        Pernil
+        <br/>
+        <p>Cada ingredient seleccionat te un cost de +0,50 € </p>
+
+        <!-- <label for = "iogur"> Iogur amb: </label>
+        <select id = "iogur" name = "iogur">
+            <option value = "" selected = "selected">- tria una opció -</option>
+            <option value = "sucre">Sucre</option>
+            <option value = "sense sucre">Sense sucre</option>
+            <option value = "ratafia">Ratafia</option>
+            <option value = "soberano">Soberano</option>
+        </select> -->
+       <br/>
+        <input type = "submit" value = "Enviar" />
+    </form>
+</body>
+</html>
